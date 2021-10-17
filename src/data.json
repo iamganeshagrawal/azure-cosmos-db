@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "question": "In Graph DB Friends of Friends can be derived from _________ ",
+    "options": {
+      "A": "Third Degree traversal",
+      "B": "First degree traversal",
+      "C": "Cannot be defined",
+      "D": "Second Degree traversal"
+    }
+  },
+  {
+    "id": 2,
+    "question": "Cosmos DB uses _________ format to return results from Gremlin operations?",
+    "options": {
+      "A": "GSON",
+      "B": "JSON",
+      "C": "GraphSON",
+      "D": "All the options"
+    }
+  },
+  {
+    "id": 3,
+    "question": "What is/are the advanced feature supported by SQL API?",
+    "options": {
+      "A": "Geospatial data",
+      "B": "Both change feed and geo spatial data",
+      "C": "Is not supported",
+      "D": "Change feed"
+    }
+  },
+  {
+    "id": 4,
+    "question": "In SQL API, Malicious server side programmability w.r.t stored procedures is avoided through ___________",
+    "options": {
+      "A": "Bounds",
+      "B": "Multi-tenacy",
+      "C": "Authentication keys",
+      "D": "All the options"
+    }
+  },
+  {
+    "id": 5,
+    "question": "________ is used to generate predictions using Machine Learning models and web services.",
+    "options": {
+      "A": "Azure Functions",
+      "B": "Azure Machine Learning",
+      "C": "Azure Cognitive services",
+      "D": "Azure Spark"
+    }
+  },
+  {
+    "id": 6,
+    "question": "Cosmos DB is a __________ kind of resource?",
+    "options": {
+      "A": "Administrative Resources",
+      "B": "Database Resources",
+      "C": "Account Resources",
+      "D": "Both Administrative and Database Resources"
+    }
+  },
+  {
+    "id": 7,
+    "question": "Querying in SQL API is similar to SQL and is based on?",
+    "options": {
+      "A": "Properties",
+      "B": "Complex objects",
+      "C": "All the options",
+      "D": "Document identifiers"
+    }
+  },
+  {
+    "id": 8,
+    "question": "Table API data items can be queried using a combination of __________",
+    "options": {
+      "A": "Partition Key and Row Key",
+      "B": "Sharding Key and Unique Key",
+      "C": "Sharding Key and Row Key",
+      "D": "Sharding Key and Partition Key"
+    }
+  },
+  {
+    "id": 9,
+    "question": "The throughput billing of cosmosDB is based on",
+    "options": {
+      "A": "CRUD operations",
+      "B": "Number of Requested units",
+      "C": "Only Read and write operations",
+      "D": "All the options"
+    }
+  },
+  {
+    "id": 10,
+    "question": "Distribution of data in physical partitions is defined by ___________",
+    "options": {
+      "A": "Partition Distribution",
+      "B": "Partition Strategy",
+      "C": "None of the options",
+      "D": "Partition Policy",
+      "E": "Partition key"
+    }
+  },
+  {
+    "id": 11,
+    "question": "When using SQL API, if there are multiple instances and consumer sends a query multiple times over multiple request, data repetetion can be avoided through ________",
+    "options": {
+      "A": "Request token",
+      "B": "Query token",
+      "C": "All the options",
+      "D": "Continuation token",
+      "E": "Client token"
+    }
+  },
+  {
+    "id": 12,
+    "question": "___________ protocol is a standard to query any data using an HTTP endpoint.",
+    "options": {
+      "A": "TableData",
+      "B": "Odata",
+      "C": "Vdata",
+      "D": "Oproto",
+      "E": "Scope of user key"
+    }
+  },
+  {
+    "id": 13,
+    "question": "What is the azure cli command to check unique cosmos DB name?",
+    "options": {
+      "A": "\"az cosmosdb check-name-exists --`name`\"",
+      "B": "\"az cosmosdb check-exists --`name`\"",
+      "C": "\"az cosmosdb check -`name`\"",
+      "D": "\"az cosmosdb check-name-exists `name`\""
+    }
+  },
+  {
+    "id": 14,
+    "question": "Which of the following can be considered as a competetor for Azure Cosmos DB ____________",
+    "options": {
+      "A": "All the options",
+      "B": "Amazon DynamoDB",
+      "C": "IBM Db2",
+      "D": "Google Cloud Bigtable"
+    }
+  },
+  {
+    "id": 15,
+    "question": "Write operation that is performed on all replicas is considered as ________ consistency?",
+    "options": {
+      "A": "Bounded Staleness",
+      "B": "Session",
+      "C": "Eventual",
+      "D": "Strong"
+    }
+  },
+  {
+    "id": 16,
+    "question": "UDFs in Cosmos DB can be written in __________.",
+    "options": {
+      "A": "PL/SQL",
+      "B": "All the options",
+      "C": "SQL",
+      "D": "Python",
+      "E": "U-SQL",
+      "F": "JavaScript"
+    }
+  },
+  {
+    "id": 17,
+    "question": "In which consistency level, the write operation is confirmed on configured number of replications",
+    "options": {
+      "A": "Bounded Staleness",
+      "B": "Sessional Consistency",
+      "C": "Configurable Consistency like any other resource",
+      "D": "Strong Consistency",
+      "E": "Eventual Consistency"
+    }
+  },
+  {
+    "id": 18,
+    "question": "In SQL API, cross partition queries can be optimised through tuning  ____________",
+    "options": {
+      "A": "Degree of parallelism",
+      "B": "Prefetching buffer",
+      "C": "Sequential buffer",
+      "D": "Partition keys"
+    }
+  },
+  {
+    "id": 19,
+    "question": "SQL Injection while using SQL API can be avoided through _______",
+    "options": {
+      "A": "SDK inbuilt functions",
+      "B": "Linked Queries",
+      "C": "all the options",
+      "D": "Parametrisation",
+      "E": "Lambda Queries"
+    }
+  },
+  {
+    "id": 20,
+    "question": "Indexing overhead affects ______________.",
+    "options": {
+      "A": "Read performance",
+      "B": "Storage performance",
+      "C": "All the options",
+      "D": "Write performance",
+      "E": "None of the options"
+    }
+  },
+  {
+    "id": 21,
+    "question": "What is the azure cli command to delete database account?",
+    "options": {
+      "A": "\"az cosmosdb delete --`name`\"",
+      "B": "\"az cosmosdb delete --`name` CosmosDBAccount --`resource-group` myresourcegroup\"",
+      "C": "\"az cosmosdb remove  -- `name`\"",
+      "D": "\"az cosmosdb delete --`name`--g resourcegroupname\""
+    }
+  },
+  {
+    "id": 22,
+    "question": "Which of the following parameters can be modified while using Mongo DB?",
+    "options": {
+      "A": "All the options",
+      "B": "Replication",
+      "C": "None of the options",
+      "D": "Sharding",
+      "E": "Write concern"
+    }
+  },
+  {
+    "id": 23,
+    "question": "________ key is used to create a permission resource under a user which in turn generates a resource key",
+    "options": {
+      "A": "Access",
+      "B": "Resource",
+      "C": "Master",
+      "D": "All the options"
+    }
+  },
+  {
+    "id": 24,
+    "question": "Which of the following azure cli command to update default consistency level of the database is correct",
+    "options": {
+      "A": "az cosmosdb update -- `name` -- `resourcegroup consistency-level",
+      "B": "az cosmosdb update -- `name` -- `resourcegroup –dcl",
+      "C": "az cosmosdb update --name --resourcegroup --default-consistency-level",
+      "D": "Cannot update consistency level"
+    }
+  },
+  {
+    "id": 25,
+    "question": "Different instances should have different __________",
+    "options": {
+      "A": "Statistical Sampling",
+      "B": "Rational Sampling",
+      "C": "Preperation Sampling",
+      "D": "Preprocess Sampling",
+      "E": "instances sampling"
+    }
+  },
+  {
+    "id": 26,
+    "question": "Cosmos DB supports what kind of indexes?",
+    "options": {
+      "A": "All the options",
+      "B": "Composite",
+      "C": "Geospatial",
+      "D": "Range"
+    }
+  },
+  {
+    "id": 27,
+    "question": "What type of attachment can be stored in Cosmos DB stores _________",
+    "options": {
+      "A": "Metadata and Blob",
+      "B": "Metadatand Media Reference",
+      "C": "Any of the options",
+      "D": "Blob/Media upto 2GB"
+    }
+  },
+  {
+    "id": 28,
+    "question": "Cassandra API querying is possible through?",
+    "options": {
+      "A": "all the given options",
+      "B": "Cassandra interact tool",
+      "C": "CQL",
+      "D": "SQL"
+    }
+  },
+  {
+    "id": 29,
+    "question": "Azure Functions and Azure Cosmos DB can be a part of larger big data pipelines with the help of _______",
+    "options": {
+      "A": "Azure AI",
+      "B": "Azure HD Insight",
+      "C": "Azure DevOps",
+      "D": "Azure Data Factory"
+    }
+  },
+  {
+    "id": 30,
+    "question": "What is the maximum document size that you can insert, read, replace in a collection?",
+    "options": {
+      "A": "2 MB",
+      "B": "Unlimited",
+      "C": "2 KB",
+      "D": "2 GB"
+    }
+  },
+  {
+    "id": 31,
+    "question": "Edges in Graph DB _________________.",
+    "options": {
+      "A": "All the options",
+      "B": "Require properties",
+      "C": "Require two vertices",
+      "D": "Are mandatory"
+    }
+  }
+]
